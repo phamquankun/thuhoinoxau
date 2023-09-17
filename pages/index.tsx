@@ -33,7 +33,7 @@ export default function Home() {
       <div className="text-center border border-red-500 p-4">
         <h1 className="text-3xl">Có nợ, có trả ={">"} bạn tốt</h1>
         <h2 className="text-4xl font-semibold text-red-500">
-          Có nợ, không trả ={">"} bạn xấu
+          Có nợ, không trả ={">"} bạn Giao Ban
         </h2>
       </div>
       <div className="border border-green-700 p-4 text-center mt-4">
