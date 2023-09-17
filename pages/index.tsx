@@ -1,10 +1,7 @@
 import hvd from "@/public/images/hvd.jpg";
-import lenam from "@/public/images/lenam.png";
-import thanhtung from "@/public/images/thanhtung.png";
 import mantran from "@/public/images/mantran.png";
-import xuanloc from "@/public/images/xuanloc.png";
-import huunhan from "@/public/images/huunhan.png";
-import duyminh from "@/public/images/duyminh.png";
+import ngocvinh from "@/public/images/ngocvinh.png";
+import thanhtung from "@/public/images/thanhtung.png";
 import Image from "next/image";
 
 const options = [
@@ -14,32 +11,12 @@ const options = [
     price: "48.000",
   },
   {
-    avt: lenam,
-    name: "Hoàng Lê Nam",
-    price: "48.000",
-  },
-  {
-    avt: duyminh,
-    name: "Lê Duy Minh",
-    price: "48.000",
-  },
-  {
-    avt: huunhan,
-    name: "Đàm Hữu Nhân",
-    price: "48.000",
-  },
-  {
-    avt: xuanloc,
-    name: "Trần Xuân Lộc",
-    price: "48.000",
-  },
-  {
     avt: mantran,
     name: "Trần Minh Mẫn",
     price: "26.000",
   },
   {
-    avt: lenam,
+    avt: ngocvinh,
     name: "Trịnh Ngọc Vĩnh",
     price: "26.000",
   },
@@ -56,7 +33,7 @@ export default function Home() {
       <div className="text-center border border-red-500 p-4">
         <h1 className="text-3xl">Có nợ, có trả ={">"} bạn tốt</h1>
         <h2 className="text-4xl font-semibold text-red-500">
-          Có nợ, không trả ={">"} bạn buồi
+          Có nợ, không trả ={">"} bạn xấu
         </h2>
       </div>
       <div className="border border-green-700 p-4 text-center mt-4">
